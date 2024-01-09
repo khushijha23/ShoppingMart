@@ -1,0 +1,26 @@
+.table-view {
+    -fx-background-color: #edf2f4; /* Set background color */
+    -fx-border-width: 1px; /* Set border width */
+    -fx-border-color: #cccccc; /* Set border color */
+}
+
+.table-row-cell {
+    -fx-border-color: #cccccc; /* Set border color between cells */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #e0e0e0; /* Set alternate row color */
+}
+
+.table-column {
+    -fx-alignment: CENTER; /* Center-align column content */
+}
+
+.table-header {
+    -fx-background-color: #4CAF50; /* Set header background color */
+    -fx-text-fill: white; /* Set header text color */
+}
+
+.table-cell {
+    -fx-padding: 5px; /* Add padding to cell content */
+}
